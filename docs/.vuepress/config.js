@@ -54,6 +54,7 @@ module.exports = {
       },*/
     ],
     // subSidebar: "auto", // 子目录跟随主题，即大的目录在左边，文章内目录在右边
+    lastUpdated: "上次更新", // string | boolean , 时间来源于 git 记录
   },
   theme: "reco", // 安装并引用已有的主题 vuepress-theme-recol，获取暗黑模式等功能
   locales: {
