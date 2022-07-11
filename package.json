@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "push": "scp -r ./docs/.vuepress/dist/* git@106.55.39.252:/home/www/website"
   },
   "description": "boris 个人博客 vuepress 版本",
   "main": "index.js",

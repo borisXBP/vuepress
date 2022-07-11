@@ -66,18 +66,20 @@ export class ApplicationRef {
 
 这是一个大工程，因为我写下这篇文章来给自己预热，也希望能打打气，更是尝试立下一个 FLAG 吧。
 
-<script>
+> 备案 © 2022 Boris 个人网站 | [粤 ICP 备 20061538 号](https://beian.miit.gov.cn) | 保留所有权利
+
+<!-- <script>
     window.onload = function() {
         let footer = document.getElementsByClassName('comments-wrapper')[0];
     footer.style.textAlign = 'center'
-    footer.innerHTML = '© 2022 Boris 个人网站 | <a href="https://beian.miit.gov.cn" target="_blank" >粤ICP备20061538号</a> | 保留所有权利' 
+    footer.innerHTML = '© 2022 Boris 个人网站 | <a href="https://beian.miit.gov.cn" target="_blank" >粤ICP备20061538号</a> | 保留所有权利'
     }
 
     setInterval(() => {
         let footer = document.getElementsByClassName('comments-wrapper')[0];
         if(footer?.innerHTML.length === 7){
                     footer.style.textAlign = 'center'
-    footer.innerHTML = '© 2022 Boris 个人网站 | <a href="https://beian.miit.gov.cn" target="_blank" >粤ICP备20061538号</a> | 保留所有权利' 
+    footer.innerHTML = '© 2022 Boris 个人网站 | <a href="https://beian.miit.gov.cn" target="_blank" >粤ICP备20061538号</a> | 保留所有权利'
         }
     }, 500);
-</script>
+</script> -->
