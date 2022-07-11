@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # vuepress
 
 vuepress 版本的个人博客
@@ -7,6 +9,14 @@ https://github.com/mqyqingfeng/Blog
 
 Github 项目博客首页：
 https://borisxbp.github.io/vuepress/
+
+远程仓库地址：
+git@106.55.39.252:/home/www/website/ts.git
+
+手动提交
+cd docs/.vuepress/dist
+git remote add boris git@106.55.39.252:/home/www/website/ts.git
+git push boris
 
 线上地址：
 
