@@ -5,6 +5,7 @@ module.exports = {
   base: "/vuepress/",
   title: "Boris 的个人博客 vuepress 版",
   description: "用于个人博客分享",
+  theme: "reco", // 安装并引用已有的主题 vuepress-theme-recol，获取暗黑模式等功能
   themeConfig: {
     nav: [
       { text: "首页", link: "/" },
@@ -56,10 +57,10 @@ module.exports = {
     // subSidebar: "auto", // 子目录跟随主题，即大的目录在左边，文章内目录在右边
     // lastUpdated: "上次更新", // string | boolean , 时间来源于 git 记录
   },
-  theme: "reco", // 安装并引用已有的主题 vuepress-theme-recol，获取暗黑模式等功能
   locales: {
     "/": {
       lang: "zh-CN", // 设置语言，对日期显示方式等有相应的影响
     },
   },
+  head: [["link", { rel: "icon", href: "/logo.ico" }]],
 };
