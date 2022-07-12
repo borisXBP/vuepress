@@ -2,7 +2,7 @@ module.exports = {
   // 路径名为 "/<REPO>/"
   host: "0.0.0.0",
   port: "80",
-  base: "/",
+  base: "/vuepress/",
   title: "Boris 的个人博客 vuepress 版",
   description: "用于个人博客分享",
   themeConfig: {
