@@ -15,6 +15,33 @@
     "vuepress": "^1.9.7"
   },
   "dependencies": {
+    "@vuepress/plugin-active-header-links": "^1.9.7",
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "@vuepress/plugin-google-analytics": "^1.9.7",
+    "@vuepress/plugin-medium-zoom": "^1.9.7",
+    "@vuepress/plugin-nprogress": "^1.9.7",
+    "@vuepress/plugin-pwa": "^1.9.7",
+    "codemirror": "^6.0.1",
+    "diff-match-patch": "^1.0.5",
+    "echarts": "^5.3.3",
+    "element-ui": "^2.15.9",
+    "node-sass": "^7.0.1",
+    "sortablejs": "^1.15.0",
+    "vant": "^3.5.2",
+    "vue-clipboard2": "^0.3.3",
+    "vue-echarts": "^6.2.3",
+    "vuedraggable": "^2.24.3",
+    "vuepress-plugin-auto-sidebar": "^2.3.2",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-clean-urls": "^1.1.2",
+    "vuepress-plugin-demo-code": "^1.0.0",
+    "vuepress-plugin-element-ui": "^1.1.0",
+    "vuepress-plugin-flowchart": "^1.5.0",
+    "vuepress-plugin-img-lazy": "^1.0.4",
+    "vuepress-plugin-meting": "^0.3.2",
+    "vuepress-plugin-reading-progress": "^1.0.10",
+    "vuepress-plugin-smooth-scroll": "^0.0.10",
+    "vuepress-plugin-table-of-contents": "^1.1.7",
     "vuepress-theme-reco": "^1.6.13"
   }
 }

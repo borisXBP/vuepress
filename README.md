@@ -25,6 +25,8 @@ sh deploy.sh
 
 备注：
 1、脚本提交的方式目前存在错误，需要手动切换到 dist 目录并提交到 gh-pages 分支才可以更新页面
+2、暂未安装的插件：vuepress-plugin-element-tabs，安装会报与node版本不兼容，估计要用低版本的node
+3、暂未安装 axios 插件，因为安装之后会报错，global is not defined
 
 > nginx 常用命令
 > systemctl reload nginx
