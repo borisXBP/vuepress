@@ -165,7 +165,7 @@ module.exports = [
     },
   ],
 
-  [
+  /*   [
     "meting",
     {
       metingApi: "https://api.injahow.cn/meting/",
@@ -189,7 +189,7 @@ module.exports = [
         autoplay: false,
         // 设置播放器的初始循环模式
         // ! 打开 all 会报错找不到 all.svg，应该是插件版本问题
-        /*        loop: "All", */
+        // loop: "All",
         // 歌曲栏折叠
         listFolded: true,
         // 设置播放器默认主题颜色
@@ -206,5 +206,5 @@ module.exports = [
         cover: false,
       },
     },
-  ],
+  ], */
 ];

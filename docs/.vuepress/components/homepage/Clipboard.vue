@@ -1,34 +1,4 @@
-<!--
- * @LineStart: -------------------------------------------
- * @Copyright: © 2020, itclanCoder. All rights reserved.
- * @LineEnd: ----------------------------------------------
- * @Product: 
- * @Mode Name: 
- * @Autor: vxPublic:itclanCoder
- * @Version: xxx.v1.0
- * @LastEditors: 川川
- * @Description: 自定义剪切: 
- 见文档https://vuepress.github.io/zh/plugins/copyright/#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%89%AA%E8%B4%B4%E6%9D%BF
--->
-<template>
-  <div>
-    <p>
-      <span>MIT Licensed | {{ dateYear }}-present</span>
-      <a href="https://github.com/itclanCode/blogcode" target="_blank"
-        >随笔川迹</a
-      >
-      <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
-        <img
-          src="/icons/icp.png"
-          width="20"
-          height="20"
-          alt="公网备案"
-        />京ICP备16017996号
-      </a>
-    </p>
-    <div v-html="html" />
-  </div>
-</template>
+<template></template>
 <style lang="stylus" scoped>
 p {
   text-align: center;
@@ -52,16 +22,51 @@ p {
 </style>
 <script>
 export default {
-  name: 'Clipboard',
-  props: ['html'],
+  name: "Clipboard",
+  props: ["html"],
   data() {
     return {
-      dateYear: new Date().getFullYear()
-    }
+      dateYear: new Date().getFullYear(),
+    };
   },
-
-  created() {
+  methods: {
+    handlePage() {
+      const target = document.querySelector(
+        'div[class="footer-wrapper footer"]'
+      );
+      if (target?.style?.height === "40px") {
+        return;
+      }
+      if (target) {
+        target.style.height = "40px";
+        target.style.padding = "0px";
+        target.innerHTML = `  <div>
+    <p>
+      <span>MIT Licensed | Copyright © ${this.dateYear} -present</span>
+      <br/>
+      <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" style="font-size:16px">
+        <img src="/icons/icp.png" width="20" height="20" alt="公网备案" style="vertical-align:middle" /> 粤
+        ICP 备 20061538 号
+      </a>
+    </p>
+    <div v-html="html" />
+  </div>`;
+      }
+      const img = document.querySelector('img[alt="hero"]');
+      if (img) {
+        img.style.maxHeight = "112px";
+        img.style.margin = "16px";
+      }
+    },
+  },
+  created() {},
+  mounted() {
     // this.location = window.location;
+    // 后续此处需要改进
+    this.handlePage();
+    setInterval(() => {
+      this.handlePage();
+    }, 400);
   },
 };
 </script>

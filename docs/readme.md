@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: /images/itclancoder.jpeg
-heroText: itclanCoder
-tagline: 书以启智,技于谋生,活出斜杠
+heroImage: /images/boris.png
+heroText: BorisXBP
+tagline: 前端工程师在路上
 actionText: 开始阅读 →
 actionLink: /latestarticle/
 features:
@@ -14,4 +14,4 @@ features:
     details: 无分享,不生活,一个具有情怀的技匠,路上正追逐斜杠青年的践行者
 ---
 
-  <homepage-Clipboard />
+   <homepage-Clipboard />
