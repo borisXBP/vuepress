@@ -34,9 +34,6 @@ export default {
       const target = document.querySelector(
         'div[class="footer-wrapper footer"]'
       );
-      if (target?.style?.height === "40px") {
-        return;
-      }
       if (target) {
         target.style.height = "40px";
         target.style.padding = "0px";

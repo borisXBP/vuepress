@@ -4,7 +4,7 @@ heroImage: /images/boris.png
 heroText: BorisXBP
 tagline: 前端工程师在路上
 actionText: 开始阅读 →
-actionLink: /latestarticle/
+actionLink: /最新文章/
 features:
   - title: 读书
     details: 虚心学习,自省自知,多读一页书,就少一分无知,多一分智慧
