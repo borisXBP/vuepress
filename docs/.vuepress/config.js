@@ -7,7 +7,7 @@ module.exports = {
   // 路径名为 "/<REPO>/"
   port: "80",
   host: "0.0.0.0",
-  base: "/",
+  base: "/", // 该路径的设置需要权衡考虑 自身服务器和 GitHub 静态页面的路径
   title: "BorisXBP 技术稍息", // "Boris 的个人博客(建设中...)",
   description: "前端技术博客,Boris的技术博客,Boris", // 博客描述,利于SEO
   keywords: "Boris的技术博客, Boris", // 关键字
